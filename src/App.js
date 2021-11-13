@@ -6,7 +6,7 @@ import "./scss/main.scss";
 class App extends Component {
   render() {
     return (
-      <div className="container">
+      <div className="container grid">
         <div className="signUp-details">
           <h1>Learn to code by watching others</h1>
           <p>

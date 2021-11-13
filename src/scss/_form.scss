@@ -21,8 +21,12 @@
     border: 1px solid $Grayish-Blue;
     border-radius: 5px;
     color: $Dark-Blue;
-    outline-color: $Grayish-Blue;
+    outline: none;
     font-weight: 700;
+  }
+
+  input:focus-within {
+    outline: 1px solid $Dark-Blue;
   }
 
   button {
