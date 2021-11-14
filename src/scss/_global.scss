@@ -8,13 +8,17 @@
   box-sizing: border-box;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   background-color: $Red;
   background-image: url("../images/bg-intro-mobile.png");
   font-family: "Poppins", sans-serif;
   line-height: 1.5;
   height: 100vh;
-  color: white;
+  color: $White;
   font-size: 0.9375rem;
 }
 
@@ -27,7 +31,7 @@ h5 {
 }
 
 .container {
-  padding: 2em;
+  padding: 2rem;
   max-width: 1000px;
   margin-inline: auto;
 }
@@ -35,6 +39,7 @@ h5 {
 @media screen and (min-width: 768px) {
   .container {
     width: 70%;
+    padding: 0;
   }
 }
 
